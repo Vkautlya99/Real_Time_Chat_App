@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    display: flex;
+    border: #31d3c9;
+    align-items: center;
+    justify-content: center;
+    min-height: 70vh;
+    background: gainsboro;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+section.chat__section {
+    width: 800px;
+    max-width: 70%;
+    background: #31d3c9;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.brand {
+    padding: 10px;
+    background-image: url("bg.jpeg");
+    background: pink;
+    display: flex;
+    align-items: center;
+}
+
+.brand h1 {
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #4916cb;
+    margin-left: 10px;
+}
+
+.message__area {
+    height: 400px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    padding-top: 40px;
+}
+
+textarea {
+    width: 100%;
+    border: 1px 2px 2px 1px ;
+    padding: 20px;
+    font-size: 16px;
+    outline: none;
+    background: #FBFBFB;
+}
+
+.message {
+    padding: 20px;
+    border-radius: 4px;
+    margin-bottom: 40px;
+    max-width: 300px;
+    position: relative;
+}
+
+.incoming {
+    background: black;
+    color: white;
+}
+
+.outgoing {
+    background: gainsboro;
+    color: black;
+    margin-left: auto;
+}
+
+.message h4 {
+    position: absolute;
+    top: -20px;
+    left: 0;
+    color: #333;
+    font-size: 14px;
+}
